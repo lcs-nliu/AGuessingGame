@@ -13,8 +13,7 @@ class ViewController: UIViewController {
 
     // MARK: Properties - to store information
      let targetNumber = Int.random(in: 1...100)
-    
-    
+    @IBOutlet weak var submittedGuess: UITextField!
     
     // MARK: Initializers - gets a class ready to be used
     
@@ -24,7 +23,6 @@ class ViewController: UIViewController {
     
     
     // Runs as soon as the view becomes visible to the user
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
